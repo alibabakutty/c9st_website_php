@@ -20,7 +20,7 @@
 
                 <div class="footer-links-group">
                     <h3>Company</h3>
-                    <a href="index.php#about">About Us</a>
+                    <a href="index#about">About Us</a>
                     <a href="#">Careers</a>
                     <a href="#">Blog</a>
                     <a href="contact.php">Contact</a>
@@ -28,10 +28,10 @@
 
                 <div class="footer-links-group">
                     <h3>Products & Services</h3>
-                    <a href="index.php#services">TallyPrime</a>
-                    <a href="index.php#services">TallyPrime Server</a>
-                    <a href="index.php#services">TallyPrime on AWS</a>
-                    <a href="index.php#services">Tally Customization</a>
+                    <a href="index#services">TallyPrime</a>
+                    <a href="index#services">TallyPrime Server</a>
+                    <a href="index#services">TallyPrime on AWS</a>
+                    <a href="index#services">Tally Customization</a>
                 </div>
 
                 <div class="footer-links-group">

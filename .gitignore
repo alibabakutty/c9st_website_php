@@ -1,0 +1,33 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Config files (if contains secrets)
+config/database.php
+config/config.php
+
+# Logs
+*.log
+logs/
+
+# Vendor folder (if using Composer)
+vendor/
+
+# Node modules (if using npm)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# XAMPP files
+.htaccess
+
+# Cache
+cache/
+tmp/

@@ -33,9 +33,9 @@ require_once __DIR__ . '/functions.php';
             </div>
 
             <div class="nav-links desktop-only">
-                <a href="<?php echo BASE_URL; ?>public/index.php" class="<?php echo getActiveClass('index.php') ? 'active' : ''; ?>">Home</a>
-                <a href="<?php echo BASE_URL; ?>public/index.php#about">About</a>
-                <a href="<?php echo BASE_URL; ?>public/index.php#services">Services</a>
+                <a href="<?php echo BASE_URL; ?>public/index" class="<?php echo getActiveClass('index.php') ? 'active' : ''; ?>">Home</a>
+                <a href="<?php echo BASE_URL; ?>public/index#about">About</a>
+                <a href="<?php echo BASE_URL; ?>public/index#services">Services</a>
                 <a href="<?php echo BASE_URL; ?>public/contact.php" class="<?php echo getActiveClass('contact.php') ? 'active' : ''; ?>">Contact</a>
             </div>
 
