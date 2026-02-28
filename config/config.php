@@ -20,10 +20,17 @@ define('HAPPY_CUSTOMERS', '4500+');
 define('TEAM_MEMBERS', '20+');
 
 // ==============================
-// Base URL (IMPORTANT)
 // ==============================
-// Use relative root path to avoid HTTPS mixed content
-define('BASE_URL', '/');
+// Base URL (Auto Detect)
+// ==============================
+
+if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
+    // Localhost
+    define('BASE_URL', '/c9st_website_php/public/');
+} else {
+    // Production (Render)
+    define('BASE_URL', '/');
+}
 
 // ==============================
 // Start Session
