@@ -33,10 +33,10 @@ require_once __DIR__ . '/functions.php';
             </div>
 
             <div class="nav-links desktop-only">
-                <a href="<?php echo BASE_URL; ?>public/index" class="<?php echo getActiveClass('index.php') ? 'active' : ''; ?>">Home</a>
-                <a href="<?php echo BASE_URL; ?>public/index#about">About</a>
-                <a href="<?php echo BASE_URL; ?>public/index#services">Services</a>
-                <a href="<?php echo BASE_URL; ?>public/contact.php" class="<?php echo getActiveClass('contact.php') ? 'active' : ''; ?>">Contact</a>
+                <a href="<?php echo BASE_URL; ?>index" class="<?php echo getActiveClass('index.php') ? 'active' : ''; ?>">Home</a>
+                <a href="<?php echo BASE_URL; ?>index#about">About</a>
+                <a href="<?php echo BASE_URL; ?>index#services">Services</a>
+                <a href="<?php echo BASE_URL; ?>contact.php" class="<?php echo getActiveClass('contact.php') ? 'active' : ''; ?>">Contact</a>
             </div>
 
             <div class="nav-actions desktop-only">
@@ -70,10 +70,10 @@ require_once __DIR__ . '/functions.php';
             </div>
 
             <!-- Mobile menu links -->
-            <a href="<?php echo BASE_URL; ?>public/index.php" onclick="toggleMobileMenu()" style="color: #ffffff; font-size: 1.2rem; padding: 0.8rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">Home</a>
-            <a href="<?php echo BASE_URL; ?>public/index.php#about" onclick="toggleMobileMenu()" style="color: #ffffff; font-size: 1.2rem; padding: 0.8rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">About</a>
-            <a href="<?php echo BASE_URL; ?>public/index.php#services" onclick="toggleMobileMenu()" style="color: #ffffff; font-size: 1.2rem; padding: 0.8rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">Services</a>
-            <a href="<?php echo BASE_URL; ?>public/contact.php" onclick="toggleMobileMenu()" style="color: #ffffff; font-size: 1.2rem; padding: 0.8rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">Contact</a>
+            <a href="<?php echo BASE_URL; ?>index.php" onclick="toggleMobileMenu()" style="color: #ffffff; font-size: 1.2rem; padding: 0.8rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">Home</a>
+            <a href="<?php echo BASE_URL; ?>index.php#about" onclick="toggleMobileMenu()" style="color: #ffffff; font-size: 1.2rem; padding: 0.8rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">About</a>
+            <a href="<?php echo BASE_URL; ?>index.php#services" onclick="toggleMobileMenu()" style="color: #ffffff; font-size: 1.2rem; padding: 0.8rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">Services</a>
+            <a href="<?php echo BASE_URL; ?>contact.php" onclick="toggleMobileMenu()" style="color: #ffffff; font-size: 1.2rem; padding: 0.8rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">Contact</a>
 
             <!-- Contact info -->
             <div style="margin-top: 2rem; padding: 1rem; background: rgba(255,255,255,0.1); border-radius: 8px;">
