@@ -19,29 +19,33 @@ define('YEARS_EXPERIENCE', '18+');
 define('HAPPY_CUSTOMERS', '4500+');
 define('TEAM_MEMBERS', '20+');
 
+
 // ==============================
-// ==============================
-// Base URL (Auto Detect)
+// Base URL (AUTO DETECT)
 // ==============================
 
 if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
-    // Localhost
-    define('BASE_URL', '/c9st_website_php/public/');
+    // When running on localhost
+    define('BASE_URL', '/public/');
 } else {
-    // Production (Render)
+    // When running on Render / Production
     define('BASE_URL', '/');
 }
+
 
 // ==============================
 // Start Session
 // ==============================
+
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
+
 // ==============================
 // Error Reporting
 // ==============================
+
 // Turn OFF in production
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
