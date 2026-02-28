@@ -12,7 +12,7 @@ require_once __DIR__ . '/functions.php';
     <meta name="description" content="Cloud 9 Soft Technologies - Your trusted partner in Tally Accounting Software solutions. Specializing in TallyPrime implementation, customization, and support.">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="<?php echo asset('css/style.css'); ?>">
+    <link rel="stylesheet" href="<?php echo asset('asset/css/style.css'); ?>">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<?php echo asset('images/favicon.ico'); ?>">
